@@ -1,0 +1,20 @@
+@media screen and (max-width: 660px) {
+    .header {
+      padding: 20px 36px 26px 50px;
+    }
+  }
+  
+  @media screen and (max-width: 560px) {
+    .header {
+      padding: 20px 20px 26px 20px;
+      flex-direction: column;
+    }
+  
+    .header > .nav {
+      flex-direction: column;
+    }
+  
+    .header > .nav > li {
+      padding: 5px 0px;
+    }
+  }

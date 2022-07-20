@@ -1,0 +1,91 @@
+@import url("_header.css");
+@import url("_footer.css");
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html,
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+.grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 117px 150px repeat(3, 690px) 207px;
+  }
+  .cursos-h1{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 61px;
+  }
+  .cursos-h1 h1{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    text-transform: capitalize;
+    color: #FF4081;
+  }
+  .cursos-h1 p{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #555555;
+  }
+  .wrapper-cursos{
+    padding: 116px 0px 116px 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .wrapper-cursos hr{
+    margin-top: 68px;
+    margin-bottom: 68px;
+  }
+  .cursos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cursos img{
+    margin-right: 53px;
+    max-height: 385px;
+  }
+  .cursos h2{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+  }
+  .cursos p {
+    max-width: 724px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-top: 37px;
+    margin-bottom: 53px;
+  }
+  .cursos button {
+    padding: 13px 9px;
+    background: #419488;
+    border-radius: 62px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+  }

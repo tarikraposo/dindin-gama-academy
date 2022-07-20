@@ -1,0 +1,77 @@
+@import url(_header.css);
+@import url(_footer.css);
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.section-investimento-1{
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding: 90px 0px;
+    padding-left: 25px;
+}
+.section-investimento-1 h1{
+    max-width: 470px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 63px;
+    color: #FF4081;
+    padding-bottom: 32px;
+}
+.section-investimento-1 p{
+    max-width: 461px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.section-investimento-2{
+    margin: 0 auto;
+    padding: 75px 0px;
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.section-investimento-2 .aula{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-investimento-2 hr{
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+.section-investimento-2 .aula h1{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+    padding-bottom: 21px;
+    margin-left: 76px;
+}
+.section-investimento-2 .aula p{
+    max-width: 501px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-left: 76px;
+}

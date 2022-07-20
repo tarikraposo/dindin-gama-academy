@@ -55,7 +55,8 @@ body {
   }
   .cursos img{
     margin-right: 53px;
-    max-height: 385px;
+    height: 385px;
+    width: 380px;
   }
   .cursos h2{
     font-family: 'Ubuntu';
@@ -88,4 +89,5 @@ body {
     text-align: center;
     color: #FFFFFF;
     border: none;
+    cursor:grab;
   }

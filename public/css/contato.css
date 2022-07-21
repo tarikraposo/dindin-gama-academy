@@ -44,7 +44,9 @@
     border: 1px solid #686868;
     border-radius: 7px;
     margin: 15px 0px;
-    height: 193px;
+}
+::placeholder {
+    padding: 10px;
 }
 .button {
     width: 108px;

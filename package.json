@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "config-yml": "^0.10.3"
+  }
+}

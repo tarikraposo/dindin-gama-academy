@@ -1,0 +1,69 @@
+@import url(_header.css);
+@import url(_footer.css);
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body {
+    font-family: 'Ubuntu', sans-serif;
+}
+.section-blog-1{
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.section-blog-1 h1{
+    max-width: 512px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 54px;
+    color: #009688;
+
+}
+.section-blog-1 p{
+    max-width: 461px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+}
+.section-blog-2 {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding-bottom: 170px;
+}
+.section-blog-2 img {
+    width: 518px;
+    height: 259px;
+    padding-top: 100px;
+}
+.section-blog-2 h1{
+
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    color: #FF4081;
+    padding: 25px 0px;
+}
+.section-blog-2 p {
+    max-width: 516px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;  
+}

@@ -20,8 +20,14 @@
     flex-direction: column;
     padding-bottom: 20px;
   }
+  .nav img {
+    max-width: 200px;
+    height: auto;
+  }
+  .nav ul li a {
+    font-size: 20px;
+  }
   .footer{
-    flex-direction: row;
     padding: 20px 0px;
   }
   .footer img{
@@ -33,14 +39,14 @@
   .button-footer .prof {
     font-weight: 300;
     font-size: 18px;
-    padding: 12px 16px;
+    padding: 8px 8px;
     width: 200px;
     align-self: center;
   }
   .button-footer .outro {
     font-weight: 300;
     font-size: 18px;
-    padding: 12px 16px;
+    padding: 8px 8px;
     width: 200px;
     align-self: center;
   }
@@ -77,7 +83,11 @@
   }
   .section-3{
     flex-direction: column;
-    
+  }
+  .section-3 h1{
+    font-size: 30px;
+    max-width: 250px;
+    align-self: center;
   }
   .section-3-row{
     flex-direction: column;
@@ -152,20 +162,161 @@
 
   /*cursos*/
 
-  .container-cursos-1 .cursos{
+ .cursos{
     flex-direction: column;
     padding: 0px 10px;
   }
-  .container-cursos-1 img{
+  .container-cursos-1 .cursos img{
     max-width: 250px;
     height: auto;
     padding-bottom: 50px;
   }
   .cursos-h1 h1{
+    padding-left: 15px;
     font-size: 40px;
   }
   .cursos-h1 p {
+    padding-left: 15px;
     font-size: 18px;
+  }
+  .cursos .cursos-texto h2{
+    font-size: 25px;
+  }
+  .cursos .cursos-texto p{
+    font-size: 16px;
+  }
+  .cursos button {
+    font-size: 16px;
+    padding: 8px 8px;
+  }
+  .cursos img {
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+  /* CONTATO */
+
+  .section-contact {
+    flex-direction: column;
+  }
+  .form-contact{
+    align-items: center;
+  }
+  .form-contact h1{
+    font-size: 30px;
+  }
+  .txt{
+    margin: 10px 0px;
+  }
+  .form-contact input{
+    max-width: 300px;
+  }
+  .img-contact img{
+    display: none;
+    /*max-width: 300px;
+    height: auto;
+    margin-top: 60px;*/
+  }
+
+  /*BLOG*/
+
+  .section-investimento-1 {
+    flex-direction: column;
+    padding-left: 0px;
+    align-items: center;
+    padding-top: 50px;
+
+  }
+  .section-investimento-1 h1{
+    font-size: 40px;
+    max-width: 300px;
+  }
+  .section-investimento-1 p{
+    font-size: 18px;
+    max-width: 300px;
+    padding-bottom: 50px;
+  }
+  .section-investimento-1 img{
+    max-width: 270px;
+    height: auto;
+  }
+  .section-investimento-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-investimento-2 div.aula{
+    flex-direction: column;
+  }
+  .section-investimento-2 iframe{
+    max-width: 370px;
+    max-height: 220px;
+  }
+  .section-investimento-2 .aula h1{
+    padding-top: 30px;
+    margin-left: 0px;
+    font-size: 30px;
+  }
+  .section-investimento-2 .aula p{
+    max-width: 350px;
+    font-size: 18px;
+    margin-left: 0px;
+  }
+  .section-investimento-2 hr {
+    max-width: 350px;
+  }
+
+  /*POST*/
+
+  .section-post-1 h1{
+    max-width: 350px;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 38px;
+  }
+  .section-post-1 img {
+    max-width: 350px;
+    height: auto;
+  }
+  .section-post-1 span {
+    font-size: 15px;
+  }
+  .section-post-2 {
+    flex-direction: column;
+    padding-top: 0px;
+  }
+  .section-post-2 p {
+    max-width: 350px;
+    font-size: 16px;
+
+  }
+  .section-post-2 h2 {
+    max-width: 350px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+  }
+  .flex-post .section-2{
+    flex-direction: column;
+  }
+  h1#title {
+    font-size: 35px;
+    padding-bottom: 30px;
+  }
+  .section-post-3 {
+    flex-direction: column;
+  }
+  .section-post-3 img{
+    max-width: 270px;
+    max-height: 200px;
+    padding-top: 40px;
+
+  }
+  .section-post-3 p{
+    margin-right: 0px;
+
+  }
+  .container-bg-section-2 {
+    padding: 50px;
   }
 }
 @media screen and (max-width: 320px) {
@@ -180,6 +331,13 @@
     flex-direction: column;
     padding-bottom: 20px;
   }
+  .nav img {
+    max-width: 200px;
+    height: auto;
+  }
+  .nav ul li a {
+    font-size: 18px;
+  }
   .footer{
     flex-direction: row;
     padding: 20px 0px;
@@ -193,17 +351,20 @@
   .button-footer .prof {
     font-weight: 300;
     font-size: 18px;
-    padding: 12px 16px;
+    padding: 8px 8px;
     width: 200px;
     align-self: center;
   }
   .button-footer .outro {
     font-weight: 300;
     font-size: 18px;
-    padding: 12px 16px;
+    padding: 8px 8px;
     width: 200px;
     align-self: center;
   }
+
+  /*INDEX*/
+
   .section-1{
     flex-direction: column;
     
@@ -280,6 +441,9 @@
   .section-container-4 {
   padding: 40px 0px;
   }
+
+  /*BLOG*/
+
   .section-blog-1{
     text-align: center;
     flex-direction: column;
@@ -315,4 +479,75 @@
     max-width: 300px;
   }
 
+  /* CURSOS */
+
+  .cursos{
+    flex-direction: column;
+    padding: 0px 10px;
+  }
+  .container-cursos-1 .cursos img{
+    max-width: 230px;
+    height: auto;
+    padding-bottom: 40px;
+  }
+  .cursos-h1 h1{
+    padding-left: 10px;
+    font-size: 35px;
+  }
+  .cursos-h1 p {
+    padding-left: 10px;
+    font-size: 16px;
+  }
+  .cursos .cursos-texto h2{
+    font-size: 23px;
+  }
+  .cursos .cursos-texto p{
+    font-size: 15px;
+  }
+  .cursos button {
+    font-size: 15px;
+    padding: 6px 6px;
+  }
+  .cursos img {
+    max-width: 280px;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 40px;
+  }
+   /*INVESTIMENTO*/
+
+  .section-investimento-1{
+    padding-top: 30px;
+   }
+  .section-investimento-1 h1{
+    font-size: 35px;
+    max-width: 300px;
+  }
+  .section-investimento-1 p{
+    font-size: 16px;
+    max-width: 300px;
+    padding-bottom: 50px;
+  }
+  .section-investimento-1 img{
+    max-width: 250px;
+    height: auto;
+  }
+ 
+  .section-investimento-2 iframe{
+    max-width: 300px;
+    max-height: 180px;
+  }
+  .section-investimento-2 .aula h1{
+    padding-top: 30px;
+    margin-left: 0px;
+    font-size: 30px;
+  }
+  .section-investimento-2 .aula p{
+    max-width: 300px;
+    font-size: 18px;
+    margin-left: 0px;
+  }
+  .section-investimento-2 hr {
+    max-width: 300px;
+  }
 }

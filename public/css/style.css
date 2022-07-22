@@ -19,7 +19,7 @@ body {
   align-items: center;
   justify-content: center;
   display: flex;
-  background-color: #FDFDFD;
+  background: #FDFDFD;
 }
 .section-1{
   background-color: #FDFDFD;
@@ -163,6 +163,7 @@ body {
   text-transform: uppercase;
 }
 .section-3 p{
+  max-width: 363px;
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 300;
@@ -258,5 +259,3 @@ body {
   line-height: 31px;
   color: #009688;
 }
-
-

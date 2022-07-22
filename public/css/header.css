@@ -1,5 +1,6 @@
 .nav-container-0{
     background-color: #2E948A;
+
   }
   .header > .nav {
     display: flex;
@@ -18,7 +19,8 @@
     align-items: center;
     justify-content: space-between;
     background: #2E948A;
-    padding: 20px 82px;
+    padding-top: 20px;
+ 
   }
   .nav ul{
     padding: 0px;

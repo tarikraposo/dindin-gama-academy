@@ -18,6 +18,30 @@
     flex-direction: column;
     padding-bottom: 20px;
   }
+  .footer{
+    flex-direction: row;
+    padding: 20px 0px;
+  }
+  .footer img{
+    display: none;
+  }
+  .footer li{
+    padding: 10px 0px;
+  }
+  .button-footer .prof {
+    font-weight: 300;
+    font-size: 18px;
+    padding: 12px 16px;
+    width: 200px;
+    align-self: center;
+  }
+  .button-footer .outro {
+    font-weight: 300;
+    font-size: 18px;
+    padding: 12px 16px;
+    width: 200px;
+    align-self: center;
+  }
   .section-1{
     flex-direction: column;
     
@@ -62,8 +86,211 @@
   .brief-section-3 {
     padding: 40px 0px;
   }
+  .wrapper-4{
+    flex-direction: column;
+  }
+  .wrapper-4 >.wrapper-4-h1{
+    font-size: 25px;
+    padding-bottom: 30px;
+  }
   .section-4{
     flex-direction: column;
   }
- 
+  .wrapper4 .section-item-4 h1{
+    font-size: 20px;
+  }
+  .section-row-4{
+    flex-direction: column;
+    padding-bottom: 25px;
+  }
+  .section-row-4 p {
+    font-size: 14px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+  }
+  .section-container-4 {
+  padding: 40px 0px;
+  }
+  .section-blog-1{
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .section-blog-1 h1 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .section-blog-1 p{
+    max-width: 370px;
+    padding-bottom: 35px;
+    padding: 0px 20px;
+  }
+  .section-blog-2 {
+    flex-direction: column;
+    align-content: center;
+    padding: 0px 20px;
+    padding-bottom: 50px;
+  }
+  .section-blog-2 img {
+    max-width: 350px;
+    max-height: auto;
+  }
+  .section-blog-2 h1{
+    font-size: 23px;
+    max-width: 350px;
+  }
+  .section-blog-2 p{
+    font-size: 16px;
+    max-width: 350px;
+  }
+
+}
+@media screen and (max-width: 320px) {
+  
+  .grid {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    text-align: center;
+  }
+  .nav{
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  .footer{
+    flex-direction: row;
+    padding: 20px 0px;
+  }
+  .footer img{
+    display: none;
+  }
+  .footer li{
+    padding: 10px 0px;
+  }
+  .button-footer .prof {
+    font-weight: 300;
+    font-size: 18px;
+    padding: 12px 16px;
+    width: 200px;
+    align-self: center;
+  }
+  .button-footer .outro {
+    font-weight: 300;
+    font-size: 18px;
+    padding: 12px 16px;
+    width: 200px;
+    align-self: center;
+  }
+  .section-1{
+    flex-direction: column;
+    
+  }
+  .section-1 h1{
+    padding-top: 30px;
+    font-size: 38px;
+    max-width: 300px;
+    line-height: 40px;
+    
+  }
+  .section-1 img {
+    flex-direction: column;
+    max-width: 250px;
+    height: auto;
+    padding: 55px 0px;
+  }
+  .section-1 button {
+    font-size: 20px;
+    padding: 10px 12px;
+  }
+  .section-1 p {
+    font-size: 20px;
+  }
+
+  .section-2{
+    flex-direction: column;
+    padding-bottom: 55px;
+  }
+  .section-2 img{
+    padding: 55px 0px;
+    max-width: 200px;
+    height: auto;
+  }
+  .section-3{
+    flex-direction: column;
+    
+  }
+  .section-3-row{
+    flex-direction: column;
+  }
+  .item-section-3 {
+    margin: 0px 10px;
+  }
+  .brief-section-3 {
+    padding: 40px 0px;
+  }
+  .wrapper-4{
+    flex-direction: column;
+  }
+  .wrapper-4 >.wrapper-4-h1{
+    font-size: 25px;
+    padding-bottom: 30px;
+  }
+  .section-4{
+    flex-direction: column;
+  }
+  .section-4 button {
+    font-size: 20px;
+    padding: 10px 12px;
+  }
+  .wrapper4 .section-item-4 h1{
+    font-size: 20px;
+  }
+  .section-row-4{
+    flex-direction: column;
+    padding-bottom: 25px;
+  }
+  .section-row-4 p {
+    font-size: 14px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+  }
+  .section-container-4 {
+  padding: 40px 0px;
+  }
+  .section-blog-1{
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .section-blog-1 h1 {
+    font-size: 28px;
+    line-height: 30px;
+    padding: 0px 20px;
+  }
+  .section-blog-1 p{
+    max-width: 370px;
+    padding-bottom: 35px;
+    padding: 0px 20px;
+  }
+  .section-blog-2 {
+    flex-direction: column;
+    align-content: center;
+    padding: 0px 10px;
+    padding-bottom: 40px;
+  }
+  .section-blog-2 img {
+    max-width: 300px;
+    max-height: auto;
+  }
+  .section-blog-2 h1{
+    font-size: 23px;
+    max-width: 350px;
+  }
+  .section-blog-2 p{
+    font-size: 16px;
+    max-width: 300px;
+  }
+
 }

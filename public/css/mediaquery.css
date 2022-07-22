@@ -7,7 +7,9 @@
   }
 }
 @media screen and (max-width: 480px) {
-  
+
+  /*index*/
+
   .grid {
     display: flex;
     flex-direction: column;
@@ -111,6 +113,9 @@
   .section-container-4 {
   padding: 40px 0px;
   }
+
+  /*blog*/
+
   .section-blog-1{
     text-align: center;
     flex-direction: column;
@@ -145,6 +150,23 @@
     max-width: 350px;
   }
 
+  /*cursos*/
+
+  .container-cursos-1 .cursos{
+    flex-direction: column;
+    padding: 0px 10px;
+  }
+  .container-cursos-1 img{
+    max-width: 250px;
+    height: auto;
+    padding-bottom: 50px;
+  }
+  .cursos-h1 h1{
+    font-size: 40px;
+  }
+  .cursos-h1 p {
+    font-size: 18px;
+  }
 }
 @media screen and (max-width: 320px) {
   

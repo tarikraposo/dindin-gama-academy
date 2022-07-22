@@ -37,13 +37,8 @@
     border-radius: 7px;
     margin: 15px 0px;
 }
-.textarea {
-    max-width: 493px;
-    width: 100%;
-    background: #FFFFFF;
-    border: 1px solid #686868;
-    border-radius: 7px;
-    margin: 15px 0px;
+#form-msg{
+    height: 193px;
 }
 ::placeholder {
     padding: 10px;
